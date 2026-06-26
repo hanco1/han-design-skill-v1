@@ -1,39 +1,18 @@
-<p align="center">
-  <strong>Han Design Skill v1</strong>
-</p>
-
-<p align="center">
-  Han-first editorial social cards, README visuals, and warm-beige serif dashboard mockups.
-</p>
-
-<p align="center">
-  <img alt="Skill v1" src="https://img.shields.io/badge/skill-v1-CD6F47">
-  <img alt="Public repo" src="https://img.shields.io/badge/repo-public-6B8A6F">
-  <img alt="License AGPL 3.0" src="https://img.shields.io/badge/license-AGPL--3.0--or--later-1A1A1A">
-  <img alt="Codex skill" src="https://img.shields.io/badge/Codex-skill-E5DFD2">
-</p>
-
-<p align="center">
-  <a href="#quick-start">Quick Start</a>
-  |
-  <a href="#dashboard-preview">Dashboard Preview</a>
-  |
-  <a href="#usage">Usage</a>
-  |
-  <a href="#source-lineage">Source Lineage</a>
-  |
-  <a href="#license">License</a>
-  |
-  Social: -
-</p>
-
-![Agent loop dashboard preview](assets/agent-loop-dashboard-readme-hero.png)
+# Han Design Skill v1
 
 `han-design-skill-v1` is a personal Codex skill for creating Han-first editorial social card systems, Rednote/Xiaohongshu carousel images, WeChat Official Account cover pairs, README visuals, dashboard mockups, and warm-beige serif editorial UI visuals.
 
 The skill is adapted from the user's optimized `guizang-social-card-skill` and uses a Guizang-inspired editorial / Swiss visual system as its source lineage. This repository adds the Han warm-beige serif house style, refined social-card workflow rules, templates, references, and validation tooling.
 
-## Quick Start
+## What It Produces
+
+- Rednote/Xiaohongshu 3:4 social card sets.
+- WeChat Official Account `21:9` + `1:1` cover pairs.
+- Article covers, product-note cards, tutorial cards, and screenshot-heavy editorial posts.
+- Han-style warm-beige serif visuals for frontend/editorial design prompts.
+- Editorial dashboard and README presentation visuals where Han's house style should override generic SaaS dashboard defaults.
+
+## Install As A Codex Skill
 
 Clone this repository, then copy the repo folder into your personal Codex skills directory:
 
@@ -59,33 +38,19 @@ Skill is valid!
 
 Open a new Codex session after installation so the skill list can be rediscovered.
 
-## Dashboard Preview
-
-The dashboard image above is rendered visual evidence for an agent-loop observability concept. It uses only verified project facts from `multi-loops-agents`, including the default Product / Implementation / Review lanes, the default `max_fix_cycles: 3`, terminal request states `ACCEPTED` and `BLOCKED`, the default 30 minute stale-heartbeat threshold, durable state files, request ownership, and the `SHIP_CHECK_OK` completion gate.
-
-Only PNG evidence is committed here. The temporary HTML/CSS prototype used to render the screenshot stays in an ignored local worktree and is not uploaded.
-
 ## Usage
 
-Example social-card prompt:
+Example prompt:
 
 ```text
 Use $han-design-skill-v1 with Han's warm-beige serif house style to turn this article into a 3:4 social card image set and a paired WeChat 21:9 + 1:1 cover.
 ```
 
-Example frontend / README visual prompt:
+For interface work, ask for the Han style explicitly:
 
 ```text
 Use $han-design-skill-v1. Treat Han's warm-beige serif house style as the primary design authority and design a frontend dashboard mockup for this repo.
 ```
-
-## What It Produces
-
-- Rednote/Xiaohongshu 3:4 social card sets.
-- WeChat Official Account `21:9` + `1:1` cover pairs.
-- Article covers, product-note cards, tutorial cards, and screenshot-heavy editorial posts.
-- Han-style warm-beige serif visuals for frontend/editorial design prompts.
-- Editorial dashboard and README presentation visuals where Han's house style should override generic SaaS dashboard defaults.
 
 ## Skill Structure
 
@@ -94,8 +59,6 @@ han-design-skill-v1/
 |-- SKILL.md
 |-- agents/
 |-- assets/
-|   |-- agent-loop-dashboard-preview.png
-|   |-- agent-loop-dashboard-readme-hero.png
 |   |-- template-editorial-card.html
 |   |-- template-swiss-card.html
 |   |-- magazine-bg-webgl.js
