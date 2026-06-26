@@ -1,4 +1,4 @@
-# Local test workspace: demos, screenshots, downloaded assets, debug scripts.
+# Generated test artifacts: demos, screenshots, downloaded assets, debug scripts.
 local-tests/
 
 # Project-local temporary git worktrees.
