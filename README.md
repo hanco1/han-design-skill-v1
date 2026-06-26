@@ -2,7 +2,7 @@
 
 `han-design-skill-v1` is a personal Codex skill for creating Han-style editorial social card systems, Rednote/Xiaohongshu carousel images, WeChat Official Account cover pairs, and warm-beige serif editorial UI visuals.
 
-The skill is adapted from the user's optimized `guizang-social-card-skill` and uses a Guizang-inspired editorial / Swiss visual system as its source lineage. This repository adds the Han warm-beige serif house style, refined social-card workflow rules, templates, references, and validation tooling.
+The skill is adapted from the user's optimized copy of [`op7418/guizang-social-card-skill`](https://github.com/op7418/guizang-social-card-skill) and uses the Guizang-inspired editorial / Swiss visual system as its source lineage. The broader visual language also references [`op7418/guizang-ppt-skill`](https://github.com/op7418/guizang-ppt-skill). This repository adds the Han warm-beige serif house style, refined social-card workflow rules, templates, references, and validation tooling.
 
 ## What It Produces
 
@@ -67,9 +67,14 @@ han-design-skill-v1/
 
 ## Source Lineage
 
-This repository is a modified personal skill derived from the user's optimized copy of `guizang-social-card-skill`. Its design language is inspired by the Guizang PPT style system and the original Guizang social-card workflow, then adapted into Han's own warm-beige serif house style and publication workflow.
+This repository is a modified personal skill derived from the user's optimized copy of [`op7418/guizang-social-card-skill`](https://github.com/op7418/guizang-social-card-skill). Its design language is inspired by the Guizang PPT style system and the original Guizang social-card workflow, then adapted into Han's own warm-beige serif house style and publication workflow.
 
-No upstream repository URL was present in the local source folder used for this publication. See `NOTICE.md` for attribution details.
+Source references:
+
+- Guizang Social Card Skill: [`op7418/guizang-social-card-skill`](https://github.com/op7418/guizang-social-card-skill)
+- Guizang PPT Skill: [`op7418/guizang-ppt-skill`](https://github.com/op7418/guizang-ppt-skill)
+
+See `NOTICE.md` for attribution details.
 
 ## License
 

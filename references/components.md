@@ -39,7 +39,7 @@ Editorial scale (default for 3:4):
 | Meta        | `.meta`     |  18px | 500    | +.20em   | mono      |
 | Label       | `.label`    |  18px | 500    | +.20em   | mono      |
 
-> **Restored 2026-05-27.** The previous defaults (900 / 700 / 700 / sans body / `−.01em`) made Editorial cards read as heavy infographic banners. They are NOT the Guizang showcase aesthetic — see `local-tests/demo-showcase/editorial.html` for the source-of-truth. The rule is restrained typography: light weights, **serif body italic-tolerant**, **wide tracking** on display + mono. Heaviness in Editorial = visual demotion to "generic landing-page", same trap as Swiss.
+> **Restored 2026-05-27.** The previous defaults (900 / 700 / 700 / sans body / `−.01em`) made Editorial cards read as heavy infographic banners. They are NOT the Guizang showcase aesthetic. The rule is restrained typography: light weights, **serif body italic-tolerant**, **wide tracking** on display + mono. Heaviness in Editorial = visual demotion to "generic landing-page", same trap as Swiss.
 
 Swiss scale (default for 3:4):
 
@@ -75,7 +75,7 @@ If the title still does not fit, **shorten the copy first**. Never solve overflo
 
 ### Swiss `.h-xl` — Hard Caps per Board (validated)
 
-The seed template ships these caps. Anything more violates the vertical budget — verified empirically in `local-tests/smoke-ai-tools/`:
+The seed template ships these caps. Anything more violates the vertical budget, as validated in internal smoke decks:
 
 | Board                | Default `.h-xl` | Max lines | Max chars / line | What happens past the cap                                          |
 | -------------------- | --------------- | --------- | ---------------- | ------------------------------------------------------------------ |
@@ -87,7 +87,7 @@ The seed template ships these caps. Anything more violates the vertical budget �
 
 ### Editorial `.h-xl` — Hard Caps per Board (validated)
 
-The Editorial seed default for `.h-xl` is 88px serif weight 500. Verified in `local-tests/demo-smoke-editorial-travel/` on M11/M14/M07 with 3-paragraph body + ledger + 5-step pipeline:
+The Editorial seed default for `.h-xl` is 88px serif weight 500. It was validated on M11/M14/M07 with 3-paragraph body + ledger + 5-step pipeline:
 
 | Board                | Default `.h-xl` | Max lines | Max chars / line | What happens past the cap                                                 |
 | -------------------- | --------------- | --------- | ---------------- | ------------------------------------------------------------------------- |
