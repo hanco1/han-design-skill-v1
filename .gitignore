@@ -1,5 +1,6 @@
 # Local test workspace: demos, screenshots, downloaded assets, debug scripts.
 local-tests/
+.worktrees/
 
 # Node and package-manager output
 node_modules/

@@ -9,6 +9,22 @@ Create polished social card packages for Xiaohongshu/Rednote, WeChat Official Ac
 
 This skill is a personal Han design skill adapted from the user's optimized `guizang-social-card-skill`. Its visual language is inspired by the Guizang PPT style system and the original social-card project, with additional Han warm-beige serif house-style rules. Treat the upstream Guizang material as source inspiration only: do not edit the original PPT skill, its templates, or its references. Put all generated work in the current project or in the user-requested output folder.
 
+## Han Design Priority Contract
+
+When this skill is used for a website, dashboard, frontend app, UI mockup, README visual, or product interface, prioritize the Han house style before inherited Guizang or generic frontend defaults. Treat the `User Editorial House Style` below as the primary design authority unless the user explicitly asks for another brand system.
+
+The default frontend/UI direction is:
+
+- Use the Han warm-beige editorial theme first: `#EFEAE0` paper background, `#E5DFD2` light surfaces, `#CD6F47` and `#6B8A6F` as limited accents, `#1A1A1A` as the darkest emphasis color.
+- Use serif/Songti/Georgia/Source Han Serif as the leading voice for titles and narrative body copy. Large display text must not become sans-serif by accident.
+- Use JetBrains Mono or a similar mono face only for overline labels, metadata, agent IDs, timestamps, lane names, and small navigation markers.
+- Keep each viewport or major panel anchored to one core idea. If a dashboard needs many metrics, group them into one editorial argument instead of filling the screen with unrelated widgets.
+- Highlight only 1-2 words or numbers per screen. Do not color or bold every important word.
+- Prefer 14-16px radii, quiet borders, paper grain, ink wash, ledger rows, marginalia, and restrained black emphasis blocks. Avoid glassmorphism, gradients, glossy SaaS shadows, nested cards, and decorative blobs.
+- For Codex-like or developer-tool UIs, borrow the structural clarity of the Codex app only at the skeleton level: left rail, session list, command/status surfaces, logs, and compact work panels. Do not copy unrelated conversation/project text, and do not let Codex chrome override the Han editorial visual language.
+
+If any inherited recipe conflicts with this contract, adapt the recipe to the Han house style rather than diluting the house style to fit the recipe.
+
 ## What To Produce
 
 Use this skill for:
@@ -74,6 +90,7 @@ Design direction:
 Implementation defaults:
 
 - Choose `Editorial Magazine x E-ink` plus the `user-editorial` theme.
+- For websites, dashboards, README visuals, and product interfaces, this is not merely a theme option: it is the default design system and should override generic app-dashboard defaults.
 - Palette: main background `#EFEAE0`, light card `#E5DFD2`, signature orange `#CD6F47`, deep sage `#6B8A6F`, emphasis black `#1A1A1A`, soft sage `#BDCEC0`.
 - Use black cards sparingly as one strong visual anchor, not as the whole layout.
 
