@@ -1,0 +1,15 @@
+{
+  "name": "han-design-skill-v1",
+  "version": "1.0.0",
+  "description": "Han-style editorial social card and cover generation skill for Codex.",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node validate-social-deck.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

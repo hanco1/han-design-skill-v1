@@ -1,0 +1,12 @@
+# Local test workspace: demos, screenshots, downloaded assets, debug scripts.
+local-tests/
+
+# Node and package-manager output
+node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Editor and OS files
+.vscode/
+.idea/
