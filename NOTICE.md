@@ -9,9 +9,3 @@ Source lineage:
 - Personal adaptation: Han warm-beige serif house style, refined social-card workflows, templates, reference rules, and validation flow
 
 This repository keeps the source license as `AGPL-3.0-or-later`.
-
-The local source folder used for this publication was a personal skill backup:
-
-```text
-C:\Users\User\.codex\skills\_backups\guizang-social-card-skill-20260615-001341
-```

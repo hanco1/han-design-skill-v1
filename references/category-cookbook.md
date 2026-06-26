@@ -26,7 +26,7 @@ For any category, if a poster has a full-bleed image with text on top, also foll
 - **Content shape**: 5-7 pages. Cover (destination + dates) → atmosphere photo + lead → itinerary ledger → 2-3 field notes (one location each) → closing quote / next-stop teaser.
 - **Pitfalls**: Generic "best places in X city" listicle voice. Cure: keep one specific date / weather / mileage detail per page to anchor it as observed, not researched.
 
-See: `local-tests/demo-image-01-yading/` for a reference build.
+Reference build note: validated in an internal travel demo deck.
 
 ---
 
@@ -59,7 +59,7 @@ See: `local-tests/demo-image-01-yading/` for a reference build.
   1. **Score-card seriousness** (8.5/10 in a giant block). We're not IGN — keep the verdict as one short clause, not a number.
   2. **Generic fan-art covers** with the game logo retraced — looks counterfeit. Prefer key art the publisher already released.
 
-See: `local-tests/demo-image-02-wukong/` for a reference build.
+Reference build note: validated in an internal game demo deck.
 
 ---
 

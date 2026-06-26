@@ -1,5 +1,7 @@
 # Local test workspace: demos, screenshots, downloaded assets, debug scripts.
 local-tests/
+
+# Project-local temporary git worktrees.
 .worktrees/
 
 # Node and package-manager output
