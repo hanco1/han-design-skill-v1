@@ -1,8 +1,8 @@
 interface:
   display_name: "Han Design Skill v1"
-  short_description: "Create Han-first editorial social cards, dashboards, covers, and warm-beige UI visuals."
+  short_description: "Create Han-style editorial social cards, covers, and warm-beige UI visuals."
   brand_color: "#CD6F47"
-  default_prompt: "Use $han-design-skill-v1 with Han's warm-beige serif house style as the primary design authority to create an editorial social card set, README visual, or frontend dashboard."
+  default_prompt: "Use $han-design-skill-v1 with Han's warm-beige serif house style to turn this article into a 3:4 social card image set and a paired WeChat 21:9 + 1:1 cover."
 
 policy:
   allow_implicit_invocation: true

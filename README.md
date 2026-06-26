@@ -1,6 +1,6 @@
 # Han Design Skill v1
 
-`han-design-skill-v1` is a personal Codex skill for creating Han-first editorial social card systems, Rednote/Xiaohongshu carousel images, WeChat Official Account cover pairs, README visuals, dashboard mockups, and warm-beige serif editorial UI visuals.
+`han-design-skill-v1` is a personal Codex skill for creating Han-style editorial social card systems, Rednote/Xiaohongshu carousel images, WeChat Official Account cover pairs, and warm-beige serif editorial UI visuals.
 
 The skill is adapted from the user's optimized `guizang-social-card-skill` and uses a Guizang-inspired editorial / Swiss visual system as its source lineage. This repository adds the Han warm-beige serif house style, refined social-card workflow rules, templates, references, and validation tooling.
 
@@ -10,7 +10,6 @@ The skill is adapted from the user's optimized `guizang-social-card-skill` and u
 - WeChat Official Account `21:9` + `1:1` cover pairs.
 - Article covers, product-note cards, tutorial cards, and screenshot-heavy editorial posts.
 - Han-style warm-beige serif visuals for frontend/editorial design prompts.
-- Editorial dashboard and README presentation visuals where Han's house style should override generic SaaS dashboard defaults.
 
 ## Install As A Codex Skill
 
@@ -44,12 +43,6 @@ Example prompt:
 
 ```text
 Use $han-design-skill-v1 with Han's warm-beige serif house style to turn this article into a 3:4 social card image set and a paired WeChat 21:9 + 1:1 cover.
-```
-
-For interface work, ask for the Han style explicitly:
-
-```text
-Use $han-design-skill-v1. Treat Han's warm-beige serif house style as the primary design authority and design a frontend dashboard mockup for this repo.
 ```
 
 ## Skill Structure
